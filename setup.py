@@ -1,3 +1,5 @@
+##setup.py is a Python file, the presence of which is an indication that the module/package you are about to install has likely been packaged and distributed with Distutils, which is the standard for distributing Python Modules.
+
 from setuptools import find_packages, setup
 from typing import List
 
@@ -25,7 +27,7 @@ setup(
     name='mlproject',
     version='0.0.1',
     author='Rakesh',
-    
+    author_email='rseervi329@gmail.com'
     packages=find_packages(),
     install_requires=get_requirements('requirements.txt')
 )
